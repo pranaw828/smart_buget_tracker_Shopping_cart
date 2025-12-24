@@ -1,0 +1,36 @@
+[dotenv@17.2.3] injecting env (7) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+API listening on http://localhost:4000
+
+==================================================
+📧 Registration OTP Request for: test@gmail.com
+🔑 OTP Code: 963517
+⏰ Expires at: 12/23/2025, 9:58:42 PM
+==================================================
+
+
+🔍 Email Configuration Check:
+   MAIL_SERVICE: gmail
+   MAIL_USER: ✓ Set
+   MAIL_PASS: ✓ Set
+   MAIL_FROM: ✓ Set
+
+✅ Gmail transporter configured successfully
+
+✅ OTP email sent successfully to test@gmail.com
+   Message ID: <4528e0b2-6068-118f-f947-72808980b061@gmail.com>
+
+
+==================================================
+📧 Registration OTP Request for: bituu9011@gmail.com
+🔑 OTP Code: 240255
+⏰ Expires at: 12/23/2025, 10:04:42 PM
+==================================================
+
+
+✅ OTP email sent successfully to bituu9011@gmail.com
+   Message ID: <f9a2f34f-490e-c034-0fdd-f384264f2a47@gmail.com>
+
+✅ New user registered with email verification: bituu9011@gmail.com
+✅ Registration OTP verified successfully for bituu9011@gmail.com
+⚠️ Razorpay keys not configured. Using demo payment mode.
+💡 To enable real Razorpay payments, add RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET to backend/.env
